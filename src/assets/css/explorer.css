@@ -1,0 +1,21 @@
+.custom-card {
+    position: relative !important;
+    overflow: hidden !important; 
+    transition: transform 0.3s ease !important;
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05) !important;
+  }
+  .custom-card:hover .play-btn {
+    display: block !important; 
+  }
+  .play-btn {
+    display: none !important; 
+    transition: opacity 0.3s easec !important; 
+    opacity: 0.8 !important; 
+  }
+  
+  .custom-card:hover .play-btn {
+    display: block !important; 
+  }
